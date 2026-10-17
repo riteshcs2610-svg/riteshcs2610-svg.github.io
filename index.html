@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ritesh Gautam | Data Science & AI Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b1120;
+    color: #e5e7eb;
+    line-height: 1.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #111a2e;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #60a5fa;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #111a2e, #172554);
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero h1 span {
+    color: #60a5fa;
+}
+
+.hero h2 {
+    font-size: 22px;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+    color: #cbd5e1;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 55px 25px;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #60a5fa;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #172033;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid #29364d;
+}
+
+.card h3 {
+    color: #93c5fd;
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background: #172033;
+    border: 1px solid #334155;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.learning {
+    color: #cbd5e1;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #111a2e;
+    color: #94a3b8;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Ritesh Gautam</div>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <h1>Hi, I'm <span>Ritesh Gautam</span></h1>
+
+    <h2>Data Analytics | Data Science | Artificial Intelligence</h2>
+
+    <p>
+        B.Tech Computer Science Engineering student interested in
+        Data Analytics, Machine Learning, Generative AI and emerging
+        Artificial Intelligence technologies.
+        I am continuously learning and building my technical skills.
+    </p>
+
+    <a href="#projects" class="button">Explore My Portfolio</a>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am a Computer Science Engineering student at COER University,
+        Roorkee, graduating in 2027. I am interested in transforming data
+        into meaningful insights and exploring the potential of Artificial
+        Intelligence.
+    </p>
+
+    <p style="margin-top:15px;">
+        My learning journey includes Microsoft Excel, Power BI, Python,
+        Data Science and Generative AI. I aim to strengthen my analytical
+        and technical skills through practical projects and continuous learning.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills & Learning</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>Data Analytics</h3>
+            <div class="skills">
+                <span class="skill">Microsoft Excel</span>
+                <span class="skill">Power BI</span>
+                <span class="skill">Data Visualization</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Programming & Data Science</h3>
+            <div class="skills">
+                <span class="skill">Python — Learning</span>
+                <span class="skill">SQL — Learning</span>
+                <span class="skill">Data Analysis</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Artificial Intelligence</h3>
+            <div class="skills">
+                <span class="skill">Generative AI — Learning</span>
+                <span class="skill">Prompt Engineering — Learning</span>
+                <span class="skill">Machine Learning — Exploring</span>
+                <span class="skill">AI Agents — Exploring</span>
+            </div>
+        </div>
+
+    </div>
+
+    <p class="learning">
+        Note: Skills marked as Learning or Exploring are currently part
+        of my learning journey.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>Mobile Sales Dashboard</h3>
+            <p><strong>Tool:</strong> Microsoft Power BI</p>
+            <p>
+                A data visualization project focused on exploring mobile
+                sales data and presenting business information through
+                interactive dashboard visuals.
+            </p>
+            <p class="learning">
+                Project files and screenshots will be added.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Future Data Science Projects</h3>
+            <p>
+                I plan to develop practical projects involving Python,
+                SQL, data analysis and Artificial Intelligence as I
+                progress in my learning journey.
+            </p>
+            <p class="learning">Projects will be added as they are completed.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>Bachelor of Technology — Computer Science Engineering</h3>
+        <p>COER University, Roorkee</p>
+        <p>2023 – 2027</p>
+    </div>
+</section>
+
+<section id="career">
+    <h2>Career Interests</h2>
+
+    <div class="skills">
+        <span class="skill">Data Analyst</span>
+        <span class="skill">Data Scientist</span>
+        <span class="skill">Business Intelligence</span>
+        <span class="skill">Generative AI</span>
+        <span class="skill">Artificial Intelligence</span>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>GitHub:
+        <a href="https://github.com/" style="color:#60a5fa;">
+            Visit GitHub
+        </a>
+    </p>
+
+    <p style="margin-top:10px;">
+        Email:
+        <a href="mailto:riteshcs2610@gmail.com" style="color:#60a5fa;">
+            riteshcs2610@gmail.com
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Ritesh Gautam | Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
